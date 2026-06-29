@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ShutdownTimer
     src/main.cpp
+    src/color.cpp
 )
 
 target_include_directories(ShutdownTimer PRIVATE ${CMAKE_SOURCE_DIR}/include)
