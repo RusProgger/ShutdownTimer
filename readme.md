@@ -1,6 +1,6 @@
-# GB ShutdownTimer
-
 # ShutdownTimer
+
+# 🇬🇧  ShutdownTimer
 
 A lightweight command-line utility for Windows that allows you to schedule a system shutdown or restart after a specified period of time.
 
