@@ -2,4 +2,4 @@
 
 #pragma once 
 
-void colorInfo(int COLOR);
+void colorInfo(int colorInfo);
