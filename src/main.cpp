@@ -9,6 +9,7 @@ int main() {
     menu();
 
     int choice;
+    std::cin >> choice;
 
     switch(choice) {
         case 1:
@@ -33,6 +34,7 @@ int main() {
     
 
     // pause 
+    std::cin.ignore();
     std::cin.get();
     return 0;
 }
