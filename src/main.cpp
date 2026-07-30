@@ -10,11 +10,22 @@ int main() {
 
     int choice;
 
-    if(choice == 1) {
-        system("shutdown /s /t 0");
-    } else if (choice == 0) {
-        std::cout << "Exit...\n";
-        return 0;
+    switch(choice) {
+        case 1:
+            colorInfo(12);
+            std::cout << "Shutdown PC...\n";
+            colorInfo(7);
+            break;
+        case 2:
+            colorInfo(12);
+            std::cout << "Set shutdown timer: \n";
+            colorInfo(7);
+            break;
+        case 3:
+            colorInfo(12);
+            std::cout << "e: \n";
+            colorInfo(7);
+            break;    
     }
     
 
