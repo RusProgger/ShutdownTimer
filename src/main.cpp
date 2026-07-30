@@ -1,11 +1,12 @@
 #include <iostream>
 #include "color.hpp"
 #include "header.hpp"
+#include "menu.hpp"
 
 int main() {
 
     header();
-
+    menu();
 
 
     
