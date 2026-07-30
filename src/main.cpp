@@ -23,9 +23,12 @@ int main() {
             break;
         case 3:
             colorInfo(12);
-            std::cout << "e: \n";
+            std::cout << "Exit: \n";
             colorInfo(7);
-            break;    
+            break;
+
+        default:
+            std::cout << "Invalid choice.\n";
     }
     
 
