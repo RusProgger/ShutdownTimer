@@ -8,6 +8,7 @@ add_executable(ShutdownTimer
     src/main.cpp
     src/color.cpp
     src/header.cpp
+    src/menu.cpp
 )
 
 target_include_directories(ShutdownTimer PRIVATE ${CMAKE_SOURCE_DIR}/include)
