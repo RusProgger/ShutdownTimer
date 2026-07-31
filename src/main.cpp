@@ -33,6 +33,9 @@ int main() {
     }
     
 
+    // exit
+    
+    std::cout << "Goodbye...\n";
     // pause 
     std::cin.ignore();
     std::cin.get();
