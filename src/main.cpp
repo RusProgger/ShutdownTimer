@@ -34,8 +34,9 @@ int main() {
     
 
     // exit
-    
+    colorInfo(12)
     std::cout << "Goodbye...\n";
+    colorInfo(7);
     // pause 
     std::cin.ignore();
     std::cin.get();
