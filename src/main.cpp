@@ -34,7 +34,7 @@ int main() {
     
 
     // exit
-    colorInfo(12)
+    colorInfo(12);
     std::cout << "Goodbye...\n";
     colorInfo(7);
     // pause 
